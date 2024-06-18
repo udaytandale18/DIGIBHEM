@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5e548e;
+    color: #333;
+    padding-top: 4rem; /* Prevent content from being hidden behind the fixed header */
+    line-height: 1.6; /* Increase line-height for better readability */
+}
+
+/* Header and Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #231942;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the header is above other content */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #DDD0C8;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #8d99ae;
+    color: #323232;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 4rem 2rem;
+    text-align: left;
+    background-color: #fff;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Specific Sections */
+#about {
+    background-color: white;
+}
+
+#education {
+    background-color: #8d99ae;
+}
+
+#projects {
+    background-color: white;
+}
+
+#achievements {
+    background-color: #8d99ae;
+}
+
+#contact {
+    background-color: white;
+}
+
+/* Section Titles */
+section h1, section h2 {
+    border-bottom: 2px solid #8d99ae;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem; /* Add margin-bottom for spacing */
+}
+
+/* Adjustments for better spacing within sections */
+section h4 {
+    margin-top: 2rem; /* Add margin-top for spacing above h4 elements */
+    margin-bottom: 1rem; /* Add margin-bottom for spacing below h4 elements */
+}
+
+section p {
+    margin-bottom: 1.5rem; /* Add margin-bottom for spacing between paragraphs */
+}
+
+section ul {
+    margin-bottom: 2rem; /* Add margin-bottom for spacing below lists */
+}
+
+section ul li {
+    margin-bottom: 0.5rem; /* Add margin-bottom for spacing between list items */
+}
+
+/* Adjustments for specific sections */
+#projects ul li {
+    margin-bottom: 1rem; /* Add margin-bottom for spacing between project list items */
+}
+
+#achievements ul li {
+    margin-bottom: 1rem; /* Add margin-bottom for spacing between achievement list items */
+}
